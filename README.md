@@ -1,6 +1,6 @@
 # FEM Challenge_01 TailwindCSS: loopstudios-landing-page
 
-This is a solution to the [Loopstudios landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/loopstudios-landing-page-N88J5Onjw). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Loopstudios landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/loopstudios-landing-page-N88J5Onjw). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -12,8 +12,6 @@ This is a solution to the [Loopstudios landing page challenge on Frontend Mentor
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 
-
-
 ## Overview
 
 ### The challenge
@@ -24,6 +22,7 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 
 ### Screenshot
+
 - Desktop
 
 ![Desktop screenshot](images/My%20solution%20desktop%20screencapture.png)
@@ -32,12 +31,10 @@ Users should be able to:
 
 ![Mobile screenshot](images/My%20solution%20mobile%20screencapture.png)
 
-
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/M-Galdi/FEM_Challenge_01_TailwindCSS_loopstudios-landing-page)
-- Live Site URL: [Add live site URL here](https://m-galdi.github.io/FEM_Challenge_01_TailwindCSS_loopstudios-landing-page/)
+- Solution URL: [Click here](https://github.com/M-Galdi/FEM_Challenge_01_TailwindCSS_loopstudios-landing-page)
+- Live Site URL: [Click here](https://m-galdi.github.io/FEM_Challenge_01_TailwindCSS_loopstudios-landing-page/)
 
 ## My process
 
@@ -47,10 +44,8 @@ Users should be able to:
 - Tailwindcss Only
 - Some js for mobile menu button
 
-
 ### What I learned
 
 I just learned Tailwind CSS so I wanted a front-end challenge to test my new knowledge.
 This is my first FrontEnd Mentor challenge, I liked the process, so I think I will make it a habit.
 To see how you can add code snippets, see below:
-
