@@ -26,7 +26,7 @@ Users should be able to:
 ### Screenshot
 - Desktop
 
-![Desktop screenshot](images/My%20solution%20screencapture.png)
+![Desktop screenshot](images/My%20solution%20desktop%20screencapture.png)
 
 - Mobile
 
