@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/dist/output.css" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&display=swap"
+      rel="stylesheet"
+    />
+    <script src="/dist/index.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>FEM Challenge_01 TailwindCSS: loopstudios-landing-page</title>
+  </head>
+  <body class="overflow-x-hidden">
+    <!-- Header -->
+
+    <div
+      class="relative h-screen w-screen bg-cover bg-center"
+      style="background-image: url('/images/desktop/image-hero.jpg')"
+    >
+      <!-- mobile menu -->
+      <div
+        id="menu"
+        class="invisible md:hidden absolute h-screen w-screen bg-cover bg-center bg-black z-50"
+      >
+        <div class="relative top-12">
+          <div class="absolute md:left-36 left-16">
+            <img src="/images/logo.svg" alt="logo" />
+          </div>
+
+          <div id="close" class="absolute right-8 flex">
+            <img
+              src="/images/icon-close.svg"
+              alt="mobile-menu"
+              width="35"
+              class="hover:cursor-pointer"
+            />
+          </div>
+
+          <div
+            class="absolute left-16 top-40 text-3xl flex-row space-y-6 font-medium text-white"
+          >
+            <div class="hover:cursor-pointer">About</div>
+            <div class="hover:cursor-pointer">Careers</div>
+            <div class="hover:cursor-pointer">Events</div>
+            <div class="hover:cursor-pointer">Products</div>
+            <div class="hover:cursor-pointer">Support</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="relative top-12">
+        <div class="absolute md:left-36 left-16">
+          <img src="/images/logo.svg" alt="logo" />
+        </div>
+
+        <div id="show" class="md:hidden absolute right-8 flex">
+          <img
+            src="/images/icon-hamburger.svg"
+            alt="mobile-menu"
+            width="35"
+            class="hover:cursor-pointer"
+          />
+        </div>
+
+        <div
+          class="hidden md:absolute top-1 right-36 md:flex md:space-x-6 space-x-2 font-semibold text-white"
+        >
+          <div class="group">
+            <div class="group-hover:cursor-pointer">About</div>
+            <div
+              class="block invisible bg-white w-6 h-0.5 rounded-md text-center -bottom-1 mx-auto relative group-hover:visible"
+            ></div>
+          </div>
+          <div class="group">
+            <div class="group-hover:cursor-pointer">Careers</div>
+            <div
+              class="block invisible bg-white w-6 h-0.5 rounded-md text-center -bottom-1 mx-auto relative group-hover:visible"
+            ></div>
+          </div>
+          <div class="group">
+            <div class="group-hover:cursor-pointer">Events</div>
+            <div
+              class="block invisible bg-white w-6 h-0.5 rounded-md text-center -bottom-1 mx-auto relative group-hover:visible"
+            ></div>
+          </div>
+          <div class="group">
+            <div class="group-hover:cursor-pointer">Products</div>
+            <div
+              class="block invisible bg-white w-6 h-0.5 rounded-md text-center -bottom-1 mx-auto relative group-hover:visible"
+            ></div>
+          </div>
+          <div class="group">
+            <div class="group-hover:cursor-pointer">Support</div>
+            <div
+              class="block invisible bg-white w-6 h-0.5 rounded-md text-center -bottom-1 mx-auto relative group-hover:visible"
+            ></div>
+          </div>
+        </div>
+
+        <div
+          class="font-sans absolute mt-48 md:ml-36 mx-24 py-6 px-10 md:text-7xl text-4xl tracking-widest text-white border-2 border-white font-normal"
+        >
+          <div>
+            <p>IMMERSIVE</p>
+            <p>EXPERIENCES</p>
+            <p>THAT DELIVER</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 1 -->
+    <div class="relative md:flex bg-white w-screen">
+      <div class="relative mt-20 md:px-8 px-16 md:my-24 md:ml-36">
+        <img
+          src="/images/desktop/image-interactive.jpg"
+          alt="interactive"
+          width="800px"
+        />
+      </div>
+      <div
+        class="bg-white md:absolute text-center md:w-2/5 md:py-12 md:pl-28 md:right-36 md:bottom-2"
+      >
+        <h2 class="text-5xl mt-12 mb-10 font-light tracking-wider">
+          THE LEADER IN INTERACTIVE VR
+        </h2>
+        <p
+          class="text-gray-400 md:mx-0 md:my-0 font-medium tracking-widest mx-16 text-center mb-8"
+        >
+          Founded in 2011, Loopstudios has been producing world-class virtual
+          reality projects for some of the best companies around the globe. Our
+          award-winning creations have transformed businesses through digital
+          experiences that bind to their brand.
+        </p>
+      </div>
+    </div>
+
+    <!-- Section 2 -->
+    <!-- Section 2 part 1 -->
+    <div class="relative md:grid md:grid-flow-col mt-36 md:grid-cols-2 mb-16">
+      <div class="relative">
+        <h3
+          class="md:absolute md:text-start text-center text-4xl md:left-36 w-full md:w-1/2"
+        >
+          OUR CREATIONS
+        </h3>
+      </div>
+      <div class="relative">
+        <button
+          class="md:absolute md:block hidden text-lg right-36 border-2 border-black py-1 px-3 hover:bg-black hover:text-white"
+        >
+          SEE ALL
+        </button>
+      </div>
+    </div>
+    <!-- Section 2 part 2 desktop -->
+    <div class="relative mb-40 hidden md:block">
+      <div class="grid grid-flow-row grid-cols-4 gap-16 grid-rows-2 px-36">
+        <div class="overflow-hidden relative group">
+          <img
+            src="/images/desktop/image-deep-earth.jpg"
+            alt=""
+            class="group-hover:opacity-50"
+          />
+
+          <div
+            class="before:bg-gradient-to-t before:from-black before:hover:bg-none before:block before:absolute before:w-64 before:h-28 before:bottom-0"
+          >
+            <p
+              class="absolute group-hover:text-gray-900 group-hover:font-normal xl:text-4xl lg:text-2xl md:text-xl text-gray-100 tracking-widest bottom-16 font-light left-8"
+            >
+              DEEP
+            </p>
+            <p
+              class="absolute group-hover:text-gray-900 group-hover:font-normal xl:text-4xl lg:text-2xl md:text-xl text-gray-100 bottom-8 left-8 tracking-widest font-light"
+            >
+              EARTH
+            </p>
+          </div>
+        </div>
+        <div class="overflow-hidden relative group">
+          <img
+            src="/images/desktop/image-night-arcade.jpg"
+            alt=""
+            class="group-hover:opacity-50"
+          />
+
+          <div
+            class="before:bg-gradient-to-t before:from-black before:hover:bg-none before:block before:absolute before:w-64 before:h-28 before:bottom-0"
+          >
+            <p
+              class="absolute group-hover:text-gray-900 group-hover:font-normal xl:text-4xl lg:text-2xl md:text-xl text-gray-100 tracking-widest bottom-16 font-light left-8"
+            >
+              NIGHT
+            </p>
+            <p
+              class="absolute group-hover:text-gray-900 group-hover:font-normal xl:text-4xl lg:text-2xl md:text-xl text-gray-100 bottom-8 left-8 tracking-widest font-light"
+            >
+              ARCADE
+            </p>
+          </div>
+        </div>
+        <div class="overflow-hidden relative group">
+          <img
+            src="/images/desktop/image-grid.jpg"
+            alt=""
+            class="group-hover:opacity-50"
+          />
+
+          <div
+            class="before:bg-gradient-to-t before:from-black before:hover:bg-none before:block before:absolute before:w-64 before:h-28 before:bottom-0"
+          >
+            <p
+              class="absolute group-hover:text-gray-900 group-hover:font-normal xl:text-4xl lg:text-2xl md:text-xl text-gray-100 tracking-widest bottom-16 font-light left-8"
+            >
+              THE
+            </p>
+            <p
+              class="absolute group-hover:text-gray-900 group-hover:font-normal xl:text-4xl lg:text-2xl md:text-xl text-gray-100 bottom-8 left-8 tracking-widest font-light"
+            >
+              GRID
+            </p>
+          </div>
+        </div>
+        <div class="overflow-hidden relative group">
+          <img
+            src="/images/desktop/image-from-above.jpg "
+            alt=""
+            class="group-hover:opacity-50"
+          />
+
+          <div
+            class="before:bg-gradient-to-t before:from-black before:hover:bg-none before:block before:absolute before:w-64 before:h-28 before:bottom-0"
+          >
+            <p
+              class="absolute group-hover:text-gray-900 group-hover:font-normal xl:text-4xl lg:text-2xl md:text-xl text-gray-100 tracking-widest bottom-16 font-light left-8"
+            >
+              FROM UP
+            </p>
+            <p
+              class="absolute group-hover:text-gray-900 group-hover:font-normal xl:text-4xl lg:text-2xl md:text-xl text-gray-100 bottom-8 left-8 tracking-widest font-light"
+            >
+              ABOVE VR
+            </p>
+          </div>
+        </div>
+        <div class="overflow-hidden relative group">
+          <img
+            src="/images/desktop/image-pocket-borealis.jpg "
+            alt=""
+            class="group-hover:opacity-50"
+          />
+
+          <div
+            class="before:bg-gradient-to-t before:from-black before:hover:bg-none before:block before:absolute before:w-64 before:h-28 before:bottom-0"
+          >
+            <p
+              class="absolute group-hover:text-gray-900 group-hover:font-normal xl:text-4xl lg:text-2xl md:text-xl text-gray-100 tracking-widest bottom-16 font-light left-8"
+            >
+              POCKET
+            </p>
+            <p
+              class="absolute group-hover:text-gray-900 group-hover:font-normal xl:text-4xl lg:text-2xl md:text-xl text-gray-100 bottom-8 left-8 tracking-widest font-light"
+            >
+              BOREALIS
+            </p>
+          </div>
+        </div>
+        <div class="overflow-hidden relative group">
+          <img
+            src="/images/desktop/image-curiosity.jpg "
+            alt=""
+            class="group-hover:opacity-50"
+          />
+
+          <div
+            class="before:bg-gradient-to-t before:from-black before:hover:bg-none before:block before:absolute before:w-64 before:h-28 before:bottom-0"
+          >
+            <p
+              class="absolute group-hover:text-gray-900 group-hover:font-normal xl:text-4xl lg:text-2xl md:text-xl text-gray-100 tracking-widest bottom-16 font-light left-8"
+            >
+              THE
+            </p>
+            <p
+              class="absolute group-hover:text-gray-900 group-hover:font-normal xl:text-4xl lg:text-2xl md:text-xl text-gray-100 bottom-8 left-8 tracking-widest font-light"
+            >
+              CURIOSITY
+            </p>
+          </div>
+        </div>
+        <div class="overflow-hidden relative group">
+          <img
+            src="/images/desktop/image-fisheye.jpg "
+            alt=""
+            class="group-hover:opacity-50"
+          />
+
+          <div
+            class="before:bg-gradient-to-t before:from-black before:hover:bg-none before:block before:absolute before:w-64 before:h-28 before:bottom-0"
+          >
+            <p
+              class="absolute group-hover:text-gray-900 group-hover:font-normal xl:text-3xl lg:text-2xl md:text-xl text-gray-100 tracking-widest bottom-16 font-light left-8"
+            >
+              MAKE IT
+            </p>
+            <p
+              class="absolute group-hover:text-gray-900 group-hover:font-normal xl:text-3xl lg:text-2xl md:text-xl text-gray-100 bottom-8 left-8 tracking-widest font-light"
+            >
+              FISHEYE
+            </p>
+          </div>
+        </div>
+        <div class="overflow-hidden relative group">
+          <img
+            src="/images/desktop/image-soccer-team.jpg "
+            alt=""
+            class="group-hover:opacity-50"
+          />
+
+          <div
+            class="before:bg-gradient-to-t before:from-black before:hover:bg-none before:block before:absolute before:w-64 before:h-28 before:bottom-0"
+          >
+            <p
+              class="absolute group-hover:text-gray-900 group-hover:font-normal xl:text-4xl lg:text-2xl md:text-xl text-gray-100 tracking-widest bottom-16 font-light left-8"
+            >
+              SOCCER
+            </p>
+            <p
+              class="absolute group-hover:text-gray-900 group-hover:font-normal xl:text-4xl lg:text-2xl md:text-xl text-gray-100 bottom-8 left-8 tracking-widest font-light"
+            >
+              TEAM VR
+            </p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="absolute block md:hidden text-lg right-36 border-2 border-black py-1 px-3 hover:bg-black hover:text-white"
+      >
+        SEE ALL
+      </button>
+    </div>
+
+    <!-- Section 2 part 2 mobile -->
+    <div class="relative mb-40 block md:hidden">
+      <div class="grid grid-flow-row grid-cols-1 gap-16 grid-rows-2 px-8">
+        <div
+          class="relative group before:bg-gradient-to-r before:from-black before:hover:bg-none before:block before:absolute before:w-24 before:h-full before:bottom-0"
+        >
+          <img
+            class="group-hover:opacity-50"
+            src="/images/mobile/image-deep-earth.jpg"
+            alt=""
+          />
+          <p
+            class="absolute group-hover:text-gray-900 group-hover:font-normal text-4xl text-gray-100 tracking-widest bottom-16 font-light left-8"
+          >
+            DEEP
+          </p>
+          <p
+            class="absolute group-hover:text-gray-900 group-hover:font-normal text-4xl text-gray-100 bottom-8 left-8 tracking-widest font-light"
+          >
+            EARTH
+          </p>
+        </div>
+        <div
+          class="relative group before:bg-gradient-to-r before:from-black before:hover:bg-none before:block before:absolute before:w-24 before:h-full before:bottom-0"
+        >
+          <img
+            src="/images/mobile/image-night-arcade.jpg "
+            alt=""
+            class="group-hover:opacity-50 -z-20"
+          />
+          <p
+            class="absolute group-hover:text-gray-900 group-hover:font-normal text-4xl text-gray-100 tracking-widest bottom-16 font-light left-8"
+          >
+            NIGHT
+          </p>
+          <p
+            class="absolute group-hover:text-gray-900 group-hover:font-normal text-4xl text-gray-100 bottom-8 left-8 tracking-widest font-light"
+          >
+            ARCADE
+          </p>
+        </div>
+        <div
+          class="relative group before:bg-gradient-to-r before:from-black before:hover:bg-none before:block before:absolute before:w-24 before:h-full before:bottom-0"
+        >
+          <img
+            src="/images/mobile/image-soccer-team.jpg "
+            alt=""
+            class="group-hover:opacity-50 -z-20"
+          />
+          <p
+            class="absolute group-hover:text-gray-900 group-hover:font-normal text-4xl text-gray-100 tracking-widest bottom-16 font-light left-8"
+          >
+            SOCCER
+          </p>
+          <p
+            class="absolute group-hover:text-gray-900 group-hover:font-normal text-4xl text-gray-100 bottom-8 left-8 tracking-widest font-light"
+          >
+            TEAM VR
+          </p>
+        </div>
+        <div
+          class="relative group before:bg-gradient-to-r before:from-black before:hover:bg-none before:block before:absolute before:w-24 before:h-full before:bottom-0"
+        >
+          <img
+            src="/images/mobile/image-grid.jpg "
+            alt=""
+            class="group-hover:opacity-50 -z-20"
+          />
+          <p
+            class="absolute group-hover:text-gray-900 group-hover:font-normal text-4xl text-gray-100 tracking-widest bottom-16 font-light left-8"
+          >
+            THE
+          </p>
+          <p
+            class="absolute group-hover:text-gray-900 group-hover:font-normal text-4xl text-gray-100 bottom-8 left-8 tracking-widest font-light"
+          >
+            GRID
+          </p>
+        </div>
+        <div
+          class="relative group before:bg-gradient-to-r before:from-black before:hover:bg-none before:block before:absolute before:w-24 before:h-full before:bottom-0"
+        >
+          <img
+            src="/images/mobile/image-from-above.jpg "
+            alt=""
+            class="group-hover:opacity-50 -z-20"
+          />
+          <p
+            class="absolute group-hover:text-gray-900 group-hover:font-normal text-4xl text-gray-100 tracking-widest bottom-16 font-light left-8"
+          >
+            FROM UP
+          </p>
+          <p
+            class="absolute group-hover:text-gray-900 group-hover:font-normal text-4xl text-gray-100 bottom-8 left-8 tracking-widest font-light"
+          >
+            ABOVE VR
+          </p>
+        </div>
+        <div
+          class="relative group before:bg-gradient-to-r before:from-black before:hover:bg-none before:block before:absolute before:w-24 before:h-full before:bottom-0"
+        >
+          <img
+            src="/images/mobile/image-pocket-borealis.jpg "
+            alt=""
+            class="group-hover:opacity-50 -z-20"
+          />
+          <p
+            class="absolute group-hover:text-gray-900 group-hover:font-normal text-4xl text-gray-100 tracking-widest bottom-16 font-light left-8"
+          >
+            POCKET
+          </p>
+          <p
+            class="absolute group-hover:text-gray-900 group-hover:font-normal text-4xl text-gray-100 bottom-8 left-8 tracking-widest font-light"
+          >
+            BOREALIS
+          </p>
+        </div>
+        <div
+          class="relative group before:bg-gradient-to-r before:from-black before:hover:bg-none before:block before:absolute before:w-24 before:h-full before:bottom-0"
+        >
+          <img
+            src="/images/mobile/image-curiosity.jpg "
+            alt=""
+            class="group-hover:opacity-50 -z-20"
+          />
+          <p
+            class="absolute group-hover:text-gray-900 group-hover:font-normal text-4xl text-gray-100 tracking-widest bottom-16 font-light left-8"
+          >
+            THE
+          </p>
+          <p
+            class="absolute group-hover:text-gray-900 group-hover:font-normal text-4xl text-gray-100 bottom-8 left-8 tracking-widest font-light"
+          >
+            CORIOSITY
+          </p>
+        </div>
+        <div
+          class="relative group before:bg-gradient-to-r before:from-black before:hover:bg-none before:block before:absolute before:w-24 before:h-full before:bottom-0"
+        >
+          <img
+            src="/images/mobile/image-fisheye.jpg "
+            alt=""
+            class="group-hover:opacity-50 -z-20"
+          />
+          <p
+            class="absolute group-hover:text-gray-900 group-hover:font-normal text-4xl text-gray-100 tracking-widest bottom-16 font-light left-8"
+          >
+            MAKE IT
+          </p>
+          <p
+            class="absolute group-hover:text-gray-900 group-hover:font-normal text-4xl text-gray-100 bottom-8 left-8 tracking-widest font-light"
+          >
+            FISHEYE
+          </p>
+        </div>
+      </div>
+      <div class="flex justify-center">
+        <button
+          class="block md:hidden text-xl font-semibold w-56 tracking-widest mt-16 border-2 border-black py-1 px-3 hover:bg-black hover:text-white"
+        >
+          SEE ALL
+        </button>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div
+      class="bg-black w-full h-full px-36 pt-16 pb-6 md:flex md:justify-between grid-cols-1 text-center"
+    >
+      <!-- Footer left -->
+      <div>
+        <div>
+          <img
+            src="/images/logo.svg"
+            alt="mini logo"
+            width="150"
+            class="mb-8 md:ml-0 mx-auto"
+          />
+        </div>
+        <div
+          class="md:flex md:justify-center md:space-x-6 md:space-y-0 space-y-3 text-center mb-8 font-normal text-white"
+        >
+          <div class="group">
+            <div class="group-hover:cursor-pointer">About</div>
+            <div
+              class="block invisible bg-white w-6 h-0.5 rounded-md text-center -bottom-1 mx-auto relative group-hover:visible"
+            ></div>
+          </div>
+          <div class="group">
+            <div class="group-hover:cursor-pointer">Careers</div>
+            <div
+              class="block invisible bg-white w-6 h-0.5 rounded-md text-center -bottom-1 mx-auto relative group-hover:visible"
+            ></div>
+          </div>
+          <div class="group">
+            <div class="group-hover:cursor-pointer">Events</div>
+            <div
+              class="block invisible bg-white w-6 h-0.5 rounded-md text-center -bottom-1 mx-auto relative group-hover:visible"
+            ></div>
+          </div>
+          <div class="group">
+            <div class="group-hover:cursor-pointer">Products</div>
+            <div
+              class="block invisible bg-white w-6 h-0.5 rounded-md text-center -bottom-1 mx-auto relative group-hover:visible"
+            ></div>
+          </div>
+          <div class="group">
+            <div class="group-hover:cursor-pointer">Support</div>
+            <div
+              class="block invisible bg-white w-6 h-0.5 rounded-md text-center -bottom-1 mx-auto relative group-hover:visible"
+            ></div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer right -->
+      <div>
+        <div class="flex justify-center space-x-6 mb-8">
+          <div class="group">
+            <img
+              src="/images/icon-facebook.svg"
+              alt="icon-facebook"
+              class="group-hover:cursor-pointer"
+            />
+            <div
+              class="block invisible bg-white w-6 h-0.5 rounded-md text-center -bottom-2 mx-auto relative group-hover:visible"
+            ></div>
+          </div>
+          <div class="group">
+            <img
+              src="/images/icon-twitter.svg"
+              alt="icon-facebook"
+              class="group-hover:cursor-pointer"
+            />
+            <div
+              class="block invisible bg-white w-6 h-0.5 rounded-md text-center -bottom-2 mx-auto relative group-hover:visible"
+            ></div>
+          </div>
+          <div class="group">
+            <img
+              src="/images/icon-pinterest.svg"
+              alt="icon-facebook"
+              class="group-hover:cursor-pointer"
+            />
+            <div
+              class="block invisible bg-white w-6 h-0.5 rounded-md text-center -bottom-2 mx-auto relative group-hover:visible"
+            ></div>
+          </div>
+          <div class="group">
+            <img
+              src="/images/icon-instagram.svg"
+              alt="icon-facebook"
+              class="group-hover:cursor-pointer"
+            />
+            <div
+              class="block invisible bg-white w-6 h-0.5 rounded-md text-center -bottom-2 mx-auto relative group-hover:visible"
+            ></div>
+          </div>
+        </div>
+        <div>
+          <p class="text-gray-400">© 2021 Loopstudios. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
